@@ -1,0 +1,62 @@
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+#imagenGato {
+    float: left;
+    width: 100px; 
+    height: auto; 
+    margin-right: 50px; 
+}
+
+.imagen-pequena {
+    max-width: 200px; 
+    height: auto; 
+}
+
+
+
+
+/* custom-styles.css */
+
+/* Redefinir el ancho máximo del contenedor principal (main) */
+.main {
+    max-width: 600px; /* Puedes ajustar el valor según tus preferencias */
+    margin: 0 auto; /* Centrar el contenido en el centro de la página */
+}
+
+/* Redefinir el ancho máximo de las imágenes */
+.img-fluid {
+    max-width: 100%; /* Hacer que las imágenes se ajusten al ancho del contenedor principal */
+    height: auto; /* Mantener la proporción de aspecto de las imágenes */
+}
+
+/* Redefinir el tamaño del texto */
+.display-4 {
+    font-size: 24px; /* Tamaño del título principal */
+}
+
+.text-danger {
+    color: red; /* Color de texto de alto contraste */
+}
+
+.lead {
+    font-size: 14px; /* Tamaño del texto principal */
+}
+
+/* Redefinir el ancho de la barra de navegación */
+.navbar {
+    max-width: 600px; /* Ancho máximo de la barra de navegación */
+    margin: 0 auto; /* Centrar la barra de navegación */
+}
+
+/* Redefinir el tamaño de la fuente de la barra de navegación */
+.nav-link {
+    font-size: 14px; /* Tamaño del texto de los enlaces de navegación */
+}
+
+/* Estilo para alinear los enlaces a la izquierda en la barra de navegación */
+.navbar-nav .nav-link.left-aligned {
+    text-align: left;
+}
