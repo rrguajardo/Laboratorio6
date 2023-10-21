@@ -1,62 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
 .contenido {
-    display: flex;
-    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 #imagenGato {
-    float: left;
-    width: 100px; 
-    height: auto; 
-    margin-right: 50px; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 0;
+}
+
+.enlaces li {
+    margin-bottom: 10px;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.enlaces a:hover {
+    color: #0056b3;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    margin: 20px;
+}
+
+h1.display-4 {
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p.lead {
+    color: #555;
 }
 
 .imagen-pequena {
-    max-width: 200px; 
-    height: auto; 
-}
-
-
-
-
-/* custom-styles.css */
-
-/* Redefinir el ancho máximo del contenedor principal (main) */
-.main {
-    max-width: 600px; /* Puedes ajustar el valor según tus preferencias */
-    margin: 0 auto; /* Centrar el contenido en el centro de la página */
-}
-
-/* Redefinir el ancho máximo de las imágenes */
-.img-fluid {
-    max-width: 100%; /* Hacer que las imágenes se ajusten al ancho del contenedor principal */
-    height: auto; /* Mantener la proporción de aspecto de las imágenes */
-}
-
-/* Redefinir el tamaño del texto */
-.display-4 {
-    font-size: 24px; /* Tamaño del título principal */
-}
-
-.text-danger {
-    color: red; /* Color de texto de alto contraste */
-}
-
-.lead {
-    font-size: 14px; /* Tamaño del texto principal */
-}
-
-/* Redefinir el ancho de la barra de navegación */
-.navbar {
-    max-width: 600px; /* Ancho máximo de la barra de navegación */
-    margin: 0 auto; /* Centrar la barra de navegación */
-}
-
-/* Redefinir el tamaño de la fuente de la barra de navegación */
-.nav-link {
-    font-size: 14px; /* Tamaño del texto de los enlaces de navegación */
-}
-
-/* Estilo para alinear los enlaces a la izquierda en la barra de navegación */
-.navbar-nav .nav-link.left-aligned {
-    text-align: left;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
